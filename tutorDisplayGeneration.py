@@ -132,8 +132,13 @@ html_content = f"""
 {html_table}
 """
 
+# output_file_path set from command line
+if len(sys.argv) == 3:
+    output_file_path = sys.argv[2]
+else:
+    output_file_path = 'tutors_list.html'
 # Write the complete HTML content to a file
-write_html_to_file(html_content, 'tutors_list.html')
+write_html_to_file(html_content, output_file_path)
 
 # Print a success message
-print('Tutor list generated successfully!')
+print('Success! HTML table generated and saved to ' + output_file_path)
