@@ -9,6 +9,7 @@ print('1. Navigate to Files on the CCC-Tutorial Center Canvas, then click Switch
 print('2. Next, click on the specific folder of portraits you need (Coordinator Portraits, Humanities Portraits, STEM Portraits).')
 print('* Make sure that all new tutors\' portraits have already been uploaded onto Canvas in the right folder, with their full name as the name of the image file *')
 print('3. Lastly, hit Ctrl-s, and save as Webpage, Complete. This will save the webpage as an html file.')
+print('4. Put the downloaded html file in this folder')
 
 option = 0
 image_links = {} 
@@ -51,7 +52,8 @@ while True:
 
 option = 0
 print('Instructions for uploading responses from the Tutor Bio Info form:\n')
-print('1. You got it')
+print('1. Make a copy of this Google Form for the new semester and get every new tutor to fill it out.')
+print('2. Open the form in Google sheets and download it as a CSV file, then put it in this folder.')
 
 while True:
     print('\n------------------------------------------------')
