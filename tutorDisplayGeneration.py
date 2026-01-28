@@ -29,7 +29,7 @@ def generate_row(name, image_url, quote, about_me_items, experience, education, 
               <div style="width: 33.33%; padding: 20px; text-align: center; display: flex; flex-direction: column; justify-content: center;">
                 <h2>{name}</h2>
                 <img style="margin: auto;" src="https://scccd.instructure.com/courses/108747/files/{image_url}/preview" data-api-endpoint="https://scccd.instructure.com/api/v1/courses/108747/files/{image_url}" data-api-returntype="File" alt="{name}'s Headshot" width="240" height="320" />
-                <p style="font-style: italic; text-align: center; padding: 20px;">"{quote}"</p>
+                <p style="font-style: italic; text-align: center; padding: 20px;">{quote}</p>
               </div>
             </div>
           </td>
@@ -43,7 +43,7 @@ def generate_row(name, image_url, quote, about_me_items, experience, education, 
               <div style="width: 33.33%; padding: 20px; text-align: center; border-right: 2px solid lightblue; display: flex; flex-direction: column; justify-content: center;">
                 <h2>{name}</h2>
                 <img style="margin: auto;" src="https://scccd.instructure.com/courses/108747/files/{image_url}/preview" data-api-endpoint="https://scccd.instructure.com/api/v1/courses/108747/files/{image_url}" data-api-returntype="File" alt="{name}'s Headshot" width="240" height="320" />
-                <p style="font-style: italic; text-align: center; padding: 20px;">"{quote}"</p>
+                <p style="font-style: italic; text-align: center; padding: 20px;">{quote}</p>
               </div>
               <div style="width: 33.33%; padding: 20px; border-right: 2px solid lightblue; display: flex; flex-direction: column; justify-content: center;">
                 <h3>Experience/Specialties:</h3>
